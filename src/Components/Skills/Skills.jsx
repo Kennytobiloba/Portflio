@@ -7,7 +7,7 @@ import javascript from "../../assets/javascript.png"
 
 const Skills = () => {
   return (
-    <div className=' md:mt-20  text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid
+    <div className=' md:mt-20  flex-1 text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid
      grid-cols-3 place-items-center md:flex md:justify-between md:items-center '>
         <h2 className='text-gray-700 text-2xl md:text-4xl font-bold m-4'>My <br />Tech Stack</h2>
        

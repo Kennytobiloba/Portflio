@@ -15,7 +15,7 @@ const About = () => {
             </p>
             </div>
                 
-          <img src={kenny} className='mx-auto rounded-3xl py-8 mt-6 md:py-0 md:w-[50%] w-full h-full md:h-[60vh] object-cover' alt="" />
+          <img src={kenny} className='mx-auto rounded-3xl py-8 mt-6 md:py-0 md:w-[50%] w-full h-full md:h-[60vh] lg:h-[80vh] object-cover' alt="" />
             
           
 

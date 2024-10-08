@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-   <div className=" overflow-hidden">
+   <div className=" overflow-hidden lg:px-10">
     <Navbar/>
     <Home/>
     <Skills/>
