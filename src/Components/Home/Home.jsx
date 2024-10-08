@@ -7,14 +7,14 @@ import kenny from "../../assets/ken.jpg"
 
 const Home = () => {
   return (
-    <div   className='grid grid-cols-1 sm:grid-cols-3 mb-10 gap-8 md:h-[70vh] max-w-[1200px] mx-auto py-8 bg-black'>
-        <div className='my-auto mx-auto col-span-1 w-[360px] h-auto lg:w-[300px] '>
+    <div   className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10 gap-8 md:h-[70vh] max-w-[1200px] mx-auto py-8 bg-black'>
+        <div className='my-auto mx-auto col-span-1 w-[300px]  sm:w-[360px] h-auto lg:w-[300px] '>
           <img src={kenny} alt="" className='w-full h-full rounded-[50%] object-cover' />
            
            
         </div>
 
-        <div className='col-span-2 px-5 my-auto'>
+        <div className='lg:col-span-2 col-span-1 px-5 my-auto'>
             <h1 className='text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold mt-6'>
                 <span className='primary-color'>
                     I'm a
